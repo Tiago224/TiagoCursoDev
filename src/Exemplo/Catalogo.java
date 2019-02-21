@@ -14,8 +14,21 @@ public class Catalogo {
         }else {
             c = b;
         }
-
         System.out.println(c);
 
+        /* Switch */
+
+        int op = 3;
+        int v = 0;
+        switch(op){
+            case 1:
+                 v = 1;
+                break;
+            case 2:
+                v = 2;
+                break;
+            default: v = -1
+        }
+        System.out.println( v );
     }
 }
