@@ -27,7 +27,7 @@ public class Catalogo {
             case 2:
                 v = 2;
                 break;
-            default: v = -1
+            default: v = -1;
         }
         System.out.println( v );
     }
