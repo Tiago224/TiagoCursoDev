@@ -9,6 +9,13 @@ public class Catalogo {
         }
         System.out.println(a);
 
+        if( c> a){
+            c = a;
+        }else {
+            c = b;
+        }
+
+        System.out.println(c);
 
     }
 }
