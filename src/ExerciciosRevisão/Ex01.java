@@ -13,7 +13,7 @@ public class Ex01 {
 
         comissao = total * 0.10 ;
 
-        System.out.println( " A comissão é " + comissao);
+        System.out.println( " A comissão é " + (float)comissao);
 
 
     }
