@@ -45,9 +45,9 @@ public class Ex03 {
             double salario, percentual, novosal;
             System.out.println(" Entre com o salario em reais (R$): ");
             salario = carteira.nextDouble();
-            System.out.println(" Entre com o percentual de reajuste? \n Instruções: O percentual " +
-                    "de reajuste deve ser um valor entre representativo entre 0-1. \n" +
-                    "Por exemplo: 0,05 = 5%/ 0,15 = 15% / 1 = 100% ");
+                System.out.println(" Entre com o percentual de reajuste? \n Instruções: O percentual " +
+                        "de reajuste deve ser um valor entre representativo entre 0-1. \n" +
+                        "Por exemplo: 0,05 = 5%/ 0,15 = 15% / 1 = 100% ");
             percentual = carteira.nextDouble();
 
             novosal = salario + (salario * percentual);

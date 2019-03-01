@@ -19,7 +19,7 @@ public class Ex02 {
             total = quant_folhas*0.25;
         }
 
-        System.out.println( "O total a ser pago é R$"+(int)total+" reais ");
+        System.out.println( "O total a ser pago é R$"+(float)total+" reais ");
 
 
 
