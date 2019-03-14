@@ -15,7 +15,11 @@ public class crianca {
     }
 
     void correr(double metros){
-        System.out.println("Correndo "+ metros + "metros");
+        System.out.println("Correndo "+ metros + " metros");
+    }
+
+    String sorrir(){
+        return  " :) ";
     }
 
 }
