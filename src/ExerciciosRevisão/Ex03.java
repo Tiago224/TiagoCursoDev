@@ -91,7 +91,8 @@ public class Ex03 {
                     area();
                     break;
              case 4:System.out.println("OPÇÃO SELENCIONADA: " + op);
-
+                    salario();
+                    break;
              case 5:System.out.println("OPÇÃO SELENCIONADA: " + op);
                     System.exit(0);
              default: {
