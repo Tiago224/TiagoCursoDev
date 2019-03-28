@@ -5,8 +5,8 @@ public class AtendimentoMedico {
             "3Terapias","4Consulta","5Exames","6Atendimento Domiciliar","7SATD Internado",
             "8Quimioterapia","9Radioterapia","10Terapia Renal Substitutiva(TRS)"};
     String data,horario;
-    Medico med;
-    Paciente pac;
+    Medico m01;
+    Paciente p01;
     String status;
 
     
